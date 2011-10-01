@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8704A8C8143763B700514BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8704A8C7143763B700514BF5 /* UIKit.framework */; };
+		8704A8CA143763B700514BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8704A8C9143763B700514BF5 /* Foundation.framework */; };
+		8704A8D0143763B700514BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8CE143763B700514BF5 /* InfoPlist.strings */; };
+		8704A8D2143763B700514BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704A8D1143763B700514BF5 /* main.m */; };
+		8704A8D6143763B700514BF5 /* papaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704A8D5143763B700514BF5 /* papaAppDelegate.m */; };
+		8704A8D9143763B700514BF5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8D7143763B700514BF5 /* MainStoryboard.storyboard */; };
+		8704A8DC143763B700514BF5 /* papaFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704A8DB143763B700514BF5 /* papaFirstViewController.m */; };
+		8704A8DE143763B700514BF5 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8DD143763B700514BF5 /* first.png */; };
+		8704A8E0143763B700514BF5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8DF143763B700514BF5 /* first@2x.png */; };
+		8704A8E3143763B700514BF5 /* papaSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704A8E2143763B700514BF5 /* papaSecondViewController.m */; };
+		8704A8E5143763B700514BF5 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8E4143763B700514BF5 /* second.png */; };
+		8704A8E7143763B700514BF5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8E6143763B700514BF5 /* second@2x.png */; };
+		8704A8EF143763B800514BF5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8704A8EE143763B800514BF5 /* SenTestingKit.framework */; };
+		8704A8F0143763B800514BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8704A8C7143763B700514BF5 /* UIKit.framework */; };
+		8704A8F1143763B800514BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8704A8C9143763B700514BF5 /* Foundation.framework */; };
+		8704A8F9143763B800514BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8704A8F7143763B800514BF5 /* InfoPlist.strings */; };
+		8704A8FC143763B800514BF5 /* AnniversairePapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704A8FB143763B800514BF5 /* AnniversairePapaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8704A8F2143763B800514BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8704A8BA143763B700514BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8704A8C2143763B700514BF5;
+			remoteInfo = AnniversairePapa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8704A8C3143763B700514BF5 /* AnniversairePapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnniversairePapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704A8C7143763B700514BF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8704A8C9143763B700514BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8704A8CD143763B700514BF5 /* AnniversairePapa-Info.plist */ = {isa = PBXFileReference; path = "AnniversairePapa-Info.plist"; sourceTree = "<group>"; };
+		8704A8CF143763B700514BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8704A8D1143763B700514BF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8704A8D3143763B700514BF5 /* AnniversairePapa-Prefix.pch */ = {isa = PBXFileReference; path = "AnniversairePapa-Prefix.pch"; sourceTree = "<group>"; };
+		8704A8D4143763B700514BF5 /* papaAppDelegate.h */ = {isa = PBXFileReference; path = papaAppDelegate.h; sourceTree = "<group>"; };
+		8704A8D5143763B700514BF5 /* papaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = papaAppDelegate.m; sourceTree = "<group>"; };
+		8704A8D8143763B700514BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8704A8DA143763B700514BF5 /* papaFirstViewController.h */ = {isa = PBXFileReference; path = papaFirstViewController.h; sourceTree = "<group>"; };
+		8704A8DB143763B700514BF5 /* papaFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = papaFirstViewController.m; sourceTree = "<group>"; };
+		8704A8DD143763B700514BF5 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8704A8DF143763B700514BF5 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8704A8E1143763B700514BF5 /* papaSecondViewController.h */ = {isa = PBXFileReference; path = papaSecondViewController.h; sourceTree = "<group>"; };
+		8704A8E2143763B700514BF5 /* papaSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = papaSecondViewController.m; sourceTree = "<group>"; };
+		8704A8E4143763B700514BF5 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8704A8E6143763B700514BF5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8704A8ED143763B800514BF5 /* AnniversairePapaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnniversairePapaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704A8EE143763B800514BF5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8704A8F6143763B800514BF5 /* AnniversairePapaTests-Info.plist */ = {isa = PBXFileReference; path = "AnniversairePapaTests-Info.plist"; sourceTree = "<group>"; };
+		8704A8F8143763B800514BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8704A8FA143763B800514BF5 /* AnniversairePapaTests.h */ = {isa = PBXFileReference; path = AnniversairePapaTests.h; sourceTree = "<group>"; };
+		8704A8FB143763B800514BF5 /* AnniversairePapaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnniversairePapaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8704A8C0143763B700514BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704A8C8143763B700514BF5 /* UIKit.framework in Frameworks */,
+				8704A8CA143763B700514BF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704A8E9143763B800514BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704A8EF143763B800514BF5 /* SenTestingKit.framework in Frameworks */,
+				8704A8F0143763B800514BF5 /* UIKit.framework in Frameworks */,
+				8704A8F1143763B800514BF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8704A8B8143763B700514BF5 = {
+			isa = PBXGroup;
+			children = (
+				8704A8CB143763B700514BF5 /* AnniversairePapa */,
+				8704A8F4143763B800514BF5 /* AnniversairePapaTests */,
+				8704A8C6143763B700514BF5 /* Frameworks */,
+				8704A8C4143763B700514BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8704A8C4143763B700514BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8704A8C3143763B700514BF5 /* AnniversairePapa.app */,
+				8704A8ED143763B800514BF5 /* AnniversairePapaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8704A8C6143763B700514BF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8704A8C7143763B700514BF5 /* UIKit.framework */,
+				8704A8C9143763B700514BF5 /* Foundation.framework */,
+				8704A8EE143763B800514BF5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8704A8CB143763B700514BF5 /* AnniversairePapa */ = {
+			isa = PBXGroup;
+			children = (
+				8704A8D4143763B700514BF5 /* papaAppDelegate.h */,
+				8704A8D5143763B700514BF5 /* papaAppDelegate.m */,
+				8704A8D7143763B700514BF5 /* MainStoryboard.storyboard */,
+				8704A8DA143763B700514BF5 /* papaFirstViewController.h */,
+				8704A8DB143763B700514BF5 /* papaFirstViewController.m */,
+				8704A8DD143763B700514BF5 /* first.png */,
+				8704A8DF143763B700514BF5 /* first@2x.png */,
+				8704A8E1143763B700514BF5 /* papaSecondViewController.h */,
+				8704A8E2143763B700514BF5 /* papaSecondViewController.m */,
+				8704A8E4143763B700514BF5 /* second.png */,
+				8704A8E6143763B700514BF5 /* second@2x.png */,
+				8704A8CC143763B700514BF5 /* Supporting Files */,
+			);
+			path = AnniversairePapa;
+			sourceTree = "<group>";
+		};
+		8704A8CC143763B700514BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8704A8CD143763B700514BF5 /* AnniversairePapa-Info.plist */,
+				8704A8CE143763B700514BF5 /* InfoPlist.strings */,
+				8704A8D1143763B700514BF5 /* main.m */,
+				8704A8D3143763B700514BF5 /* AnniversairePapa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8704A8F4143763B800514BF5 /* AnniversairePapaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8704A8FA143763B800514BF5 /* AnniversairePapaTests.h */,
+				8704A8FB143763B800514BF5 /* AnniversairePapaTests.m */,
+				8704A8F5143763B800514BF5 /* Supporting Files */,
+			);
+			path = AnniversairePapaTests;
+			sourceTree = "<group>";
+		};
+		8704A8F5143763B800514BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8704A8F6143763B800514BF5 /* AnniversairePapaTests-Info.plist */,
+				8704A8F7143763B800514BF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8704A8C2143763B700514BF5 /* AnniversairePapa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8704A8FF143763B800514BF5 /* Build configuration list for PBXNativeTarget "AnniversairePapa" */;
+			buildPhases = (
+				8704A8BF143763B700514BF5 /* Sources */,
+				8704A8C0143763B700514BF5 /* Frameworks */,
+				8704A8C1143763B700514BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnniversairePapa;
+			productName = AnniversairePapa;
+			productReference = 8704A8C3143763B700514BF5 /* AnniversairePapa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8704A8EC143763B800514BF5 /* AnniversairePapaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8704A902143763B800514BF5 /* Build configuration list for PBXNativeTarget "AnniversairePapaTests" */;
+			buildPhases = (
+				8704A8E8143763B800514BF5 /* Sources */,
+				8704A8E9143763B800514BF5 /* Frameworks */,
+				8704A8EA143763B800514BF5 /* Resources */,
+				8704A8EB143763B800514BF5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8704A8F3143763B800514BF5 /* PBXTargetDependency */,
+			);
+			name = AnniversairePapaTests;
+			productName = AnniversairePapaTests;
+			productReference = 8704A8ED143763B800514BF5 /* AnniversairePapaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8704A8BA143763B700514BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8704A8BD143763B700514BF5 /* Build configuration list for PBXProject "AnniversairePapa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8704A8B8143763B700514BF5;
+			productRefGroup = 8704A8C4143763B700514BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8704A8C2143763B700514BF5 /* AnniversairePapa */,
+				8704A8EC143763B800514BF5 /* AnniversairePapaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8704A8C1143763B700514BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704A8D0143763B700514BF5 /* InfoPlist.strings in Resources */,
+				8704A8D9143763B700514BF5 /* MainStoryboard.storyboard in Resources */,
+				8704A8DE143763B700514BF5 /* first.png in Resources */,
+				8704A8E0143763B700514BF5 /* first@2x.png in Resources */,
+				8704A8E5143763B700514BF5 /* second.png in Resources */,
+				8704A8E7143763B700514BF5 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704A8EA143763B800514BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704A8F9143763B800514BF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8704A8EB143763B800514BF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8704A8BF143763B700514BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704A8D2143763B700514BF5 /* main.m in Sources */,
+				8704A8D6143763B700514BF5 /* papaAppDelegate.m in Sources */,
+				8704A8DC143763B700514BF5 /* papaFirstViewController.m in Sources */,
+				8704A8E3143763B700514BF5 /* papaSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704A8E8143763B800514BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704A8FC143763B800514BF5 /* AnniversairePapaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8704A8F3143763B800514BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8704A8C2143763B700514BF5 /* AnniversairePapa */;
+			targetProxy = 8704A8F2143763B800514BF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8704A8CE143763B700514BF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8704A8CF143763B700514BF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8704A8D7143763B700514BF5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8704A8D8143763B700514BF5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8704A8F7143763B800514BF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8704A8F8143763B800514BF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8704A8FD143763B800514BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8704A8FE143763B800514BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8704A900143763B800514BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnniversairePapa/AnniversairePapa-Prefix.pch";
+				INFOPLIST_FILE = "AnniversairePapa/AnniversairePapa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8704A901143763B800514BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnniversairePapa/AnniversairePapa-Prefix.pch";
+				INFOPLIST_FILE = "AnniversairePapa/AnniversairePapa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8704A903143763B800514BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnniversairePapa.app/AnniversairePapa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnniversairePapa/AnniversairePapa-Prefix.pch";
+				INFOPLIST_FILE = "AnniversairePapaTests/AnniversairePapaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8704A904143763B800514BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnniversairePapa.app/AnniversairePapa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnniversairePapa/AnniversairePapa-Prefix.pch";
+				INFOPLIST_FILE = "AnniversairePapaTests/AnniversairePapaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8704A8BD143763B700514BF5 /* Build configuration list for PBXProject "AnniversairePapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704A8FD143763B800514BF5 /* Debug */,
+				8704A8FE143763B800514BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8704A8FF143763B800514BF5 /* Build configuration list for PBXNativeTarget "AnniversairePapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704A900143763B800514BF5 /* Debug */,
+				8704A901143763B800514BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8704A902143763B800514BF5 /* Build configuration list for PBXNativeTarget "AnniversairePapaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704A903143763B800514BF5 /* Debug */,
+				8704A904143763B800514BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8704A8BA143763B700514BF5 /* Project object */;
+}
