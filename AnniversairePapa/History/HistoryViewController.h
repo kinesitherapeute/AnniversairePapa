@@ -20,6 +20,6 @@
 - (void) initImageAndTextView;
 - (void) initPersonnes;
 - (void) createGestureRecognizers;
-- (void) handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
+- (IBAction) handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
 - (void)createGestureRecognizers; 
 @end

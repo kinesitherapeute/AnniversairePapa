@@ -205,7 +205,7 @@
                continueAfterRunningActions = "No"
                symbolName = "-[MessageTableViewController detailViewController]"
                urlString = "file://localhost/Developer/Code/iOs/AnniversairePapa/AnniversairePapa/MessageTableViewController.m"
-               timestampString = "339461064.505249"
+               timestampString = "339542300.710489"
                startingColumnNumber = "9223372036854775807"
                endingColumnNumber = "9223372036854775807"
                startingLineNumber = "14"
@@ -217,7 +217,7 @@
                continueAfterRunningActions = "No"
                symbolName = "-[MessageTableViewController setDetailViewController:]"
                urlString = "file://localhost/Developer/Code/iOs/AnniversairePapa/AnniversairePapa/MessageTableViewController.m"
-               timestampString = "339461064.505763"
+               timestampString = "339542300.710806"
                startingColumnNumber = "9223372036854775807"
                endingColumnNumber = "9223372036854775807"
                startingLineNumber = "14"
@@ -259,11 +259,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AnniversairePapa/History/HistoryViewController.m"
-         timestampString = "339458125.700793"
+         timestampString = "339542139.282296"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "69"
-         endingLineNumber = "69"
+         startingLineNumber = "73"
+         endingLineNumber = "73"
          landmarkName = "@implementation HistoryViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -273,11 +273,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AnniversairePapa/History/HistoryViewController.m"
-         timestampString = "339458125.700793"
+         timestampString = "339542139.282296"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
+         startingLineNumber = "77"
+         endingLineNumber = "77"
          landmarkName = "-initSegmentControl"
          landmarkType = "5">
       </FileBreakpoint>
@@ -321,6 +321,48 @@
          startingLineNumber = "51"
          endingLineNumber = "51"
          landmarkName = "-initImageAndTextView"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "AnniversairePapa/History/HistoryViewController.m"
+         timestampString = "339542139.282296"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "93"
+         endingLineNumber = "93"
+         landmarkName = "-handleSwipeFrom:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "AnniversairePapa/History/HistoryViewController.m"
+         timestampString = "339542139.282296"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "101"
+         endingLineNumber = "101"
+         landmarkName = "-handleSwipeFrom:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "AnniversairePapa/History/HistoryViewController.m"
+         timestampString = "339541699.29649"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "60"
+         endingLineNumber = "60"
+         landmarkName = "-updateImageView:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -56,14 +56,18 @@
     [self.view addSubview:textView];
 }
 -(void) updateImageView:(bool) isLeft{
-    NSString *imageNom;
+    //NSString *imageNom;
     if(isLeft){
-        imageNom = @"IMG_0992_face0.jpg";
+        //imageNom = @"IMG_0992_face0.jpg";
+        [imageView setImage:[UIImage imageNamed:@"IMG_0992_face0.jpg"]];
     } else{
-        imageNom = @"DSC01133_face1.jpg";
+        //imageNom = @"DSC01133_face1.jpg";
+        //[imageView setImage:[UIImage imageNamed:@"IMG_0992_face0.jpg"]];
+        [imageView setImage:[UIImage imageNamed:@"DSC01133_face1.jpg"]];
     }
-    [imageView setImage:[UIImage imageNamed:imageNom]];
+    //[imageView setImage:[UIImage imageNamed:imageNom]];
     [imageView setOpaque:TRUE];
+    [self.view addSubview:imageView];
     //[self.view addSubview:imageView];
 }
 
@@ -79,10 +83,12 @@
             [segmentedControl setSelectedSegmentIndex:i];
         }
         i++;
+        //[segmentedControl sizeToFit];//Permet la mise à jour en taille des boutons
+        //[segmentedControl setContentHorizontalAlignment: UIControlContentHorizontalAlignmentCenter];
     }
 }
 
-- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
+- (IBAction)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
     
     CGPoint location = [recognizer locationInView:self.view];
     
@@ -93,11 +99,12 @@
         [self updateImageView:FALSE];
     }
     
-    //[UIView beginAnimations:nil context:NULL];
+    [UIView beginAnimations:nil context:NULL];
     //[UIView setAnimationDuration:0.55];
-    imageView.alpha = 0.0;
-    imageView.center = location;
-    //[UIView commitAnimations];
+   // imageView.alpha = 0.0;
+   // imageView.center = location;
+//     [self.view addSubview:imageView];
+    [UIView commitAnimations];
 }
 
 - (void)createGestureRecognizers {
