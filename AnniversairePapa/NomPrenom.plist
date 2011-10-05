@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<dict>
+			<key>Nom</key>
+			<string>Besson</string>
+			<key>Prenom</key>
+			<string>Catherine</string>
+			<key>Surnom</key>
+			<string>Biche</string>
+			<key>Message</key>
+			<string>Coucou mon Jacques</string>
+		</dict>
+		<dict>
+			<key>Nom</key>
+			<string>Besson</string>
+			<key>Prenom</key>
+			<string>Pierre</string>
+			<key>Surnom</key>
+			<string>Pierrot</string>
+			<key>Message</key>
+			<string>Coucou Papa! C&apos;est Pierre!</string>
+		</dict>
+		<dict>
+			<key>Nom</key>
+			<string>Besson</string>
+			<key>Prenom</key>
+			<string>Marion</string>
+			<key>Surnom</key>
+			<string>Minette</string>
+			<key>Message</key>
+			<string>Coucou Papa c&apos;est Marion!</string>
+		</dict>
+		<dict>
+			<key>Nom</key>
+			<string>Besson</string>
+			<key>Prenom</key>
+			<string>Louis</string>
+			<key>Surnom</key>
+			<string>Luigi</string>
+			<key>Message</key>
+			<string>Coucou Papa c&apos;est Louis!</string>
+		</dict>
+		<dict>
+			<key>Nom</key>
+			<string>Besson</string>
+			<key>Prenom</key>
+			<string>Jules</string>
+			<key>Surnom</key>
+			<string>Julius</string>
+			<key>Message</key>
+			<string>Coucou Papa c&apos;est Jules!</string>
+		</dict>
+		<dict>
+			<key>Nom</key>
+			<string>Besson</string>
+			<key>Prenom</key>
+			<string>Collyne</string>
+			<key>Surnom</key>
+			<string>Collynette</string>
+			<key>Message</key>
+			<string>Coucou grand père c&apos;est Collyne!</string>
+		</dict>
+		<dict>
+			<key>Nom</key>
+			<string>Besson (Bientôt)</string>
+			<key>Prenom</key>
+			<string>Halimatou</string>
+			<key>Surnom</key>
+			<string>Hali</string>
+			<key>Message</key>
+			<string>Coucou Jacques, Cest Hali!</string>
+		</dict>
+	</array>
+</dict>
+</plist>
