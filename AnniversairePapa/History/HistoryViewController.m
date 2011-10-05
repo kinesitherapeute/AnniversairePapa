@@ -15,8 +15,6 @@
 @synthesize imageView;
 @synthesize personnesArray;
 @synthesize textView;
-@synthesize swipeLeftRecognizer;
-@synthesize swipeRightRecognizer;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -56,19 +54,19 @@
     [self.view addSubview:textView];
 }
 -(void) updateImageView:(bool) isLeft{
-    //NSString *imageNom;
+    NSString *imageNom;
     if(isLeft){
         //imageNom = @"IMG_0992_face0.jpg";
-        [imageView setImage:[UIImage imageNamed:@"IMG_0992_face0.jpg"]];
-    } else{
-        //imageNom = @"DSC01133_face1.jpg";
         //[imageView setImage:[UIImage imageNamed:@"IMG_0992_face0.jpg"]];
-        [imageView setImage:[UIImage imageNamed:@"DSC01133_face1.jpg"]];
-    }
+        imageNom = [[personnesArray objectAtIndex:[segmentedControl selectedSegmentIndex]] getPreviousPhoto];
+    } else{
+        //[imageView setImage:[UIImage imageNamed:@"DSC01133_face1.jpg"]];
+        imageNom = [[personnesArray objectAtIndex:[segmentedControl selectedSegmentIndex]] getNextPhoto];
     //[imageView setImage:[UIImage imageNamed:imageNom]];
+    }
+    [imageView  setImage:[UIImage imageNamed:imageNom]];
     [imageView setOpaque:TRUE];
     [self.view addSubview:imageView];
-    //[self.view addSubview:imageView];
 }
 
 //Faire une méthode qui fait la même chose mais pour le bouton sélectionné.
@@ -90,7 +88,6 @@
 
 - (IBAction)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
     
-    CGPoint location = [recognizer locationInView:self.view];
     
     if (recognizer.direction == UISwipeGestureRecognizerDirectionLeft) {
         [self updateImageView:TRUE];
@@ -107,7 +104,7 @@
     [UIView commitAnimations];
 }
 
-- (void)createGestureRecognizers {
+/*- (void)createGestureRecognizers {
     UIGestureRecognizer *recognizer;
     //The right swipe recognizer. 
     recognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeForm:)]; //Target est la classe qui va prendre en charge le callback
@@ -120,7 +117,10 @@
     self.swipeLeftRecognizer = (UISwipeGestureRecognizer *) recognizer;
     swipeLeftRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
     [self.imageView addGestureRecognizer:swipeLeftRecognizer];
-  /*  UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
+  
+ 
+ //
+ UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
                                                 initWithTarget:self action:@selector(handleSingleDoubleTap:)];
     singleFingerDTap.numberOfTapsRequired = 2;
     [s addGestureRecognizer:singleFingerDTap];
@@ -134,9 +134,9 @@
     UIPinchGestureRecognizer *pinchGesture = [[UIPinchGestureRecognizer alloc]
                                               initWithTarget:self action:@selector(handlePinchGesture:)];
     [self.theView addGestureRecognizer:pinchGesture];
-    [pinchGesture release];*/
+    [pinchGesture release];//
 }
-
+*/
 
 - (void)didReceiveMemoryWarning
 {

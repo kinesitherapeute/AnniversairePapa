@@ -13,6 +13,9 @@
     NSString *prenom;
     NSString *surnom;
     NSString *message;
+    NSArray *photosName;
+    @private
+    NSInteger numPhoto;
     
 }
 
@@ -20,6 +23,9 @@
 @property (nonatomic, retain)  NSString *prenom;
 @property (nonatomic, retain)  NSString *surnom;
 @property (nonatomic, retain)  NSString *message;
+@property (nonatomic, retain)  NSArray *photosName; 
 
 - (id) initWithDictionaryFromPlist: (NSDictionary *) dictionnary;
+-(NSString*) getNextPhoto;
+-(NSString*) getPreviousPhoto;
 @end

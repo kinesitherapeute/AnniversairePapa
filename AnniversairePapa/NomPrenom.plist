@@ -7,6 +7,13 @@
 		<dict>
 			<key>Nom</key>
 			<string>Besson</string>
+			<key>Photos</key>
+			<array>
+				<string>IMG_0992_face0.jpg</string>
+				<string>DSC01133_face1.jpg</string>
+				<string>iphone-icon.png</string>
+				<string>AnnivPapa.jpg</string>
+			</array>
 			<key>Prenom</key>
 			<string>Catherine</string>
 			<key>Surnom</key>
@@ -15,6 +22,13 @@
 			<string>Coucou mon Jacques</string>
 		</dict>
 		<dict>
+			<key>Photos</key>
+			<array>
+				<string>AnnivPapa.jpg</string>
+				<string>IMG_0992_face0.jpg</string>
+				<string>DSC01133_face1.jpg</string>
+				<string>iphone-icon.png</string>
+			</array>
 			<key>Nom</key>
 			<string>Besson</string>
 			<key>Prenom</key>
@@ -25,6 +39,13 @@
 			<string>Coucou Papa! C&apos;est Pierre!</string>
 		</dict>
 		<dict>
+			<key>Photos</key>
+			<array>
+				<string>iphone-icon.png</string>
+				<string>IMG_0992_face0.jpg</string>
+				<string>DSC01133_face1.jpg</string>
+				<string>AnnivPapa.jpg</string>
+			</array>
 			<key>Nom</key>
 			<string>Besson</string>
 			<key>Prenom</key>
@@ -35,6 +56,13 @@
 			<string>Coucou Papa c&apos;est Marion!</string>
 		</dict>
 		<dict>
+			<key>Photos</key>
+			<array>
+				<string>DSC01133_face1.jpg</string>
+				<string>IMG_0992_face0.jpg</string>
+				<string>iphone-icon.png</string>
+				<string>AnnivPapa.jpg</string>
+			</array>
 			<key>Nom</key>
 			<string>Besson</string>
 			<key>Prenom</key>
@@ -45,6 +73,13 @@
 			<string>Coucou Papa c&apos;est Louis!</string>
 		</dict>
 		<dict>
+			<key>Photos</key>
+			<array>
+				<string>IMG_0992_face0.jpg</string>
+				<string>iphone-icon.png</string>
+				<string>DSC01133_face1.jpg</string>
+				<string>AnnivPapa.jpg</string>
+			</array>
 			<key>Nom</key>
 			<string>Besson</string>
 			<key>Prenom</key>
@@ -55,6 +90,13 @@
 			<string>Coucou Papa c&apos;est Jules!</string>
 		</dict>
 		<dict>
+			<key>Photos</key>
+			<array>
+				<string>IMG_0992_face0.jpg</string>
+				<string>iphone-icon.png</string>
+				<string>AnnivPapa.jpg</string>
+				<string>DSC01133_face1.jpg</string>
+			</array>
 			<key>Nom</key>
 			<string>Besson</string>
 			<key>Prenom</key>
@@ -65,6 +107,13 @@
 			<string>Coucou grand père c&apos;est Collyne!</string>
 		</dict>
 		<dict>
+			<key>Photos</key>
+			<array>
+				<string>iphone-icon.png</string>
+				<string>DSC01133_face1.jpg</string>
+				<string>IMG_0992_face0.jpg</string>
+				<string>AnnivPapa.jpg</string>
+			</array>
 			<key>Nom</key>
 			<string>Besson (Bientôt)</string>
 			<key>Prenom</key>
