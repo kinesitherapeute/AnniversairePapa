@@ -19,5 +19,6 @@
 - (void) initPersonnes;
 //- (void) createGestureRecognizers;
 - (IBAction) handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
+- (IBAction)handleTapOnSegmentControl:(UITapGestureRecognizer *)recognizer;
 //- (void)createGestureRecognizers; 
 @end

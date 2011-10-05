@@ -86,6 +86,11 @@
     }
 }
 
+
+- (IBAction)handleTapOnSegmentControl:(UITapGestureRecognizer *)recognizer {
+     [self updateImageView:TRUE];
+}
+
 - (IBAction)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
     
     
