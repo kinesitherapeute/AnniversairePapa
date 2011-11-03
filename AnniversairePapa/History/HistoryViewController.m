@@ -16,6 +16,12 @@
 @synthesize personnesArray;
 @synthesize textView;
 
+//Deal with fullscreen mode.
+CGRect originalFrame,fullScreenFrame, textFrame; //In order to keep in memory the size of the image view
+BOOL isFullScreenMode; //In order to know if you are in fullScreen mode.
+
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -52,13 +58,22 @@
     [imageView setOpaque:TRUE];
     [self.view addSubview:imageView];
     [self.view addSubview:textView];
+    textFrame = textView.frame;
+    [textView sizeToFit];
+    //We put in memory the size of fullscreen mode and normal mode.
+    originalFrame = imageView.frame;//CGRectMake(imageView.frame.origin.x,imageView.frame.origin.y,imageView.frame.size.width,imageView.frame.size.height);
+    fullScreenFrame = CGRectMake(0,0,768,1004);
 }
 -(void) updateImageView:(bool) isLeft{
+    
+   // imageView = NULL;
+    //imageView.frame = isFullScreenMode ? originalFrame: fullScreenFrame;
     NSString *imageNom;
     if(isLeft){
         //imageNom = @"IMG_0992_face0.jpg";
         //[imageView setImage:[UIImage imageNamed:@"IMG_0992_face0.jpg"]];
         imageNom = [[personnesArray objectAtIndex:[segmentedControl selectedSegmentIndex]] getPreviousPhoto];
+        
     } else{
         //[imageView setImage:[UIImage imageNamed:@"DSC01133_face1.jpg"]];
         imageNom = [[personnesArray objectAtIndex:[segmentedControl selectedSegmentIndex]] getNextPhoto];
@@ -66,7 +81,7 @@
     }
     [imageView  setImage:[UIImage imageNamed:imageNom]];
     [imageView setOpaque:TRUE];
-    [self.view addSubview:imageView];
+    //[self.view addSubview:imageView];
 }
 
 //Faire une méthode qui fait la même chose mais pour le bouton sélectionné.
@@ -88,7 +103,13 @@
 
 
 - (IBAction)handleTapOnSegmentControl:(UITapGestureRecognizer *)recognizer {
-     [self updateImageView:TRUE];
+    Personne * personne = [personnesArray objectAtIndex:[segmentedControl selectedSegmentIndex]];
+    //textView = [[UITextView alloc] initWithFrame:CGRectMake(5, 30, 100, 30)]; 
+    textView.frame = textFrame;
+    [textView setText: [personne message]];
+    textView.autoresizingMask = UIViewAutoresizingFlexibleHeight; 
+    [textView sizeToFit];
+    [self updateImageView:TRUE];
 }
 
 - (IBAction)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
@@ -108,6 +129,42 @@
 //     [self.view addSubview:imageView];
     [UIView commitAnimations];
 }
+
+
+//---handle tap gesture---
+-(IBAction) handleTapGesture:(UIGestureRecognizer *) sender {
+    // HOW TO ACCOMPLISH THIS PART
+    if (isFullScreenMode)
+        [imageView setFrame:originalFrame];
+    else
+        [imageView setFrame:fullScreenFrame];
+    
+    [imageView setCenter:CGPointMake(self.view.frame.size.width/2,self.view.frame.size.height/2)];
+    isFullScreenMode = !isFullScreenMode;
+    NSLog(@"Image View : %@",imageView);
+}
+
+//---handle pinch gesture---
+-(IBAction) handlePinchGesture:(UIGestureRecognizer *) sender { 
+    CGFloat factor = [(UIPinchGestureRecognizer *) sender scale];   
+    
+    if (sender.state == UIGestureRecognizerStateEnded){
+        // HOW TO ACCOMPLISH THIS ---
+        if (factor > 1 && !isFullScreenMode) {
+            //---pinching in---
+            [imageView setFrame:fullScreenFrame];
+            
+        } else {
+            //---pinching out---
+            [imageView setFrame:originalFrame];
+            
+        } 
+        isFullScreenMode = !isFullScreenMode;
+        [imageView setCenter:CGPointMake(self.view.frame.size.width/2,self.view.frame.size.height/2)];
+    }   
+    NSLog(@"Image View : %@",imageView);
+}
+
 
 /*- (void)createGestureRecognizers {
     UIGestureRecognizer *recognizer;
@@ -149,6 +206,7 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
+    
 }
 
 #pragma mark - View lifecycle

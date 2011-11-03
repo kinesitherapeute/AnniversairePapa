@@ -20,5 +20,7 @@
 //- (void) createGestureRecognizers;
 - (IBAction) handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
 - (IBAction)handleTapOnSegmentControl:(UITapGestureRecognizer *)recognizer;
+- (IBAction) handleTapGesture:(UIGestureRecognizer *) sender ;
+- (IBAction) handlePinchGesture:(UIGestureRecognizer *) sender ;
 //- (void)createGestureRecognizers; 
 @end

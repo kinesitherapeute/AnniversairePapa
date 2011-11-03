@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML5 Mobile Pro Example: css-animation-3d</title>
+  <meta name="viewport" content="width=320,initial-scale=1.0,user-scalable=no" />
+  <style type="text/css" media="screen">
+    body {
+      -webkit-transform: perspective(800);
+      -webkit-transform-style: preserve-3d;
+    }
+    @-webkit-keyframes bounce {
+      from {
+        -webkit-transform: translate3d(150px, 50px, 0px) rotateX(-10deg) rotateY(-10deg) rotateZ(-10deg);
+      }
+      to {
+        -webkit-transform: translate3d(100px, 180px, -100px) rotateX(20deg) rotateY(40deg) rotateZ(270deg);
+      }
+    }
+    #cube {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      -webkit-animation: bounce 5s alternate infinite ease-in-out;
+    }
+    div.face {
+      width: 100px;
+      height: 100px;
+      background: url(IMG_0992_face0.jpg); /* hi-res image */
+      background-size: 100%;
+      position: absolute;
+    }
+    #face_1 {
+    }
+    #face_2 {
+      -webkit-transform: rotateY(90deg) translate3d(50px,0px,50px);
+    }
+    #face_3 {
+      -webkit-transform: rotateY(180deg) translate3d(0,0,100px);
+    }
+    #face_4 {
+      -webkit-transform: rotateY(270deg) translate3d(-50px,0,50px);
+    }
+  </style>
+</head>
+<body>
+  <div id="cube">
+    <div class="face" id="face_1"></div>
+    <div class="face" id="face_2"></div>
+    <div class="face" id="face_3"></div>
+    <div class="face" id="face_4"></div>
+  </div>
+</body>
+</html>
